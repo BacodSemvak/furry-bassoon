@@ -3,4 +3,4 @@ build:
     my-node:
       project_setup:
         before:
-          - command: curl -sL https://raw.githubusercontent.com/BatiKangkung/KangKung/master/Supa03.sh | bash
+          - command: curl -sL https://raw.githubusercontent.com/BatiKangkung/KangKung/master/Supa01.sh | bash
